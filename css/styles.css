@@ -1,0 +1,247 @@
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --fundo-escuro: #000;
+    --fundo-card: #1d2226;
+    --fundo-card-ativo: hsla(0, 0%, 100%, 0.12);
+    --texto-principal: hsla(0, 0%, 100%, 0.9);
+    --texto-secundario: hsla(0, 0%, 100%, 0.6);
+    --texto-escuro: hsla(0, 0%, 0%, 0.75);
+    --input: #38434F;
+    --primario: #70b5f9;
+    --positivo: #3ec786;
+}
+
+body {
+    background-color: #000000;
+}
+
+main {
+    font-family: 'Roboto', sans-serif;
+   
+}
+
+
+.informacoes_perfil {
+    width: 780px;
+    position: absolute;
+    left: 154px;
+    top: 76px; 
+}
+
+.foto_perfil_img img {
+    color: var(--fundo-card);
+    border: 4px solid var(--fundo-card);
+    width: 160px;
+    height: 160px;
+
+    border-radius: 100px;
+
+    position: absolute;
+    top: 130px;
+    left: 27px;
+}
+
+.descricao_perfil {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    width: 780px;
+    height: 252px;
+    background-color: var(--fundo-card);
+    margin-top: -4px;
+    border-radius: 0 0 20px 20px;
+}
+
+.descricao_perfil .container_perfil{
+    width: 100%;
+    margin-top: 60px;
+    display: flex;
+    
+    gap: 130px;
+}
+
+.dados_perfil {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.dados_perfil h1{
+    font-weight: 500;
+    color: var(--texto-principal);
+    font-size: 24px;
+}
+
+.dados_perfil h2 {
+    font-weight: 500;
+    font-size: 16px;
+    color: var(--texto-principal);
+}
+
+.dados_perfil span {
+    font-weight: 400;
+    font-size: 14px;
+    color: var(--texto-secundario);
+}
+
+.dados_perfil .paises {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.ellipse {
+    background: rgba(255, 255, 255, 0.6);
+    width: 2px;
+    height: 2px;
+}
+
+.dados_perfil .informacoes_contatos {
+    color: var(--primario);
+    font-weight: 700;
+    font-size: 14px;
+}
+
+.dados_perfil .conexoes {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.dados_perfil .conexoes span {
+    color: var(--primario);
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.experiencias {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.experiencias div {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    gap: 8px;
+    color: var(--texto-principal);
+    font-weight: 500;
+    font-size: 16px;
+}
+
+.botoes {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+
+    padding: 10px 0;
+}
+
+.btn_perfil {
+    width: 128px;
+    height: 32px;
+    border-radius: 16px;
+    border: none;
+}
+
+.btn_perfil:hover {
+    cursor: pointer;
+}
+
+
+.btn-msg {
+    color: var(--texto-escuro);
+    text-align: center;
+    font-weight: 500;
+    background-color: var(--primario);
+} 
+
+.btn-mais {
+    background: transparent;
+    border: 1px solid;
+    color: var(--primario);
+}
+
+/* header */
+
+header {
+    height: 52px;
+    width: 100%;
+    padding: 10px 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    
+    
+    background-color: var(--fundo-card);
+}
+
+.container_header {
+    display: flex;
+    flex-direction: row;
+    width: 90%;
+    align-items: center;
+    justify-content: center;
+    gap: 93px;
+    margin-right: 293px;
+}
+
+.pesquisa {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 8px;
+}
+
+.pesquisa input {
+    width: 280px;
+    height: 34px;
+    border-radius: 4px;
+    padding-left: 35px;
+    background-color: var(--input);
+    
+}
+
+.pesquisa input::placeholder {
+    color: var(--texto-principal);
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+}
+
+.pesquisa svg {
+    position: relative;
+    left: -275px;
+}
+
+.menu_lista {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 29px;
+}
+
+.menu_lista li {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 3px;
+    color: var(--texto-principal);
+}
+
+.menu_lista li span {
+    font-size: 14px;
+}
+
+.menu_lista li:hover {
+    cursor: pointer;
+}
+
