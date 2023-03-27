@@ -25,6 +25,7 @@ body {
 
 main {
     font-family: 'Roboto', sans-serif;
+    padding-bottom:61px ;
    
 }
 
@@ -432,3 +433,168 @@ header {
     font-size: 14px;
     line-height: 20px;
 }
+
+.container_experiencias {
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 20px 20px;
+}
+
+.container_sobre_experiencias{
+    display: flex;
+    flex-direction: column;
+    gap: 17px;
+}
+
+.container_sobre_experiencias p {
+    color: var(--texto-primario);
+    font-weight: 500;
+    font-size: 16px;
+}
+
+.container_sobre_experiencias span {
+    color: var(--texto-secundario);
+    font-weight: 400;
+    font-size: 14px;
+}
+
+.container_experiencias h3 {
+    font-weight: 500;
+    font-size: 20px;
+    color: var(--texto-primario);
+}
+
+.empresa {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+}
+
+.experiencia_baixo {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.experiencias_icons {
+    display: flex;
+    flex-direction: column;
+    
+    align-items: center;
+    gap: 16px;
+}
+
+.experienca_vaga {
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+}
+
+.experienca_vaga h4 {
+    font-weight: 500;
+    font-size: 16px;
+    color: var(--texto-primario);
+}
+
+.experienca_vaga p {
+    font-weight: 400;
+    font-size: 14px;
+    color: var(--texto-primario);
+}
+
+.experienca_vaga span {
+    font-size: 14px;
+}
+
+.experiencia_baixo_vagas {
+    display: flex;
+    flex-direction: column;
+    gap: 13px;
+}
+
+.container_formacao {
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+    padding: 20px;
+    gap: 10px;
+}
+
+.container_formacao h3 {
+    color: var(--texto-primario);
+    font-weight: 500;
+    font-size: 20px;
+}
+
+.container-info {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    align-items: center;
+}
+
+.container-info img {
+    width: 48px;
+    height: 48px;
+    object-fit: cover;
+}
+
+.info-formacao {
+    display: flex;
+    flex-direction: column;
+    color: var(--texto-primario);
+
+}
+
+.info-formacao h5 {
+    font-size: 16px;
+    font-weight: 500;
+    color: var(--texto-primario);
+}
+
+.info-formacao p {
+    font-weight: 400;
+    font-size: 14px;
+}
+
+.info-formacao span {
+    font-size: 14px;
+    font-weight: 400;
+    color: var(--texto-secundario);
+}
+
+.container_idiomas {
+    margin-top: 10px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.container_idiomas div {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.container_idiomas h3 {
+    color: var(--texto-primario);
+    font-weight: 500;
+    font-size: 20px;
+}
+
+.container_idiomas p {
+    color: var(--texto-primario);
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.container_idiomas span {
+    font-weight: 400;
+    font-size: 14px;
+    color: var(--texto-secundario);
+}
+
